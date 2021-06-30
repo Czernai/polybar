@@ -62,7 +62,7 @@ height = 28
 ;   Pour avoir la date en français
 locale = fr_FR.UTF-8
 
-line-underline-size = 2
+line-underline-size = 3
 line-underline-color = ${colors.blanc} 
 
 border-size = 4
@@ -82,7 +82,7 @@ monitor = ${env:MONITOR:HDMI-1}
 background = ${colors.background}
 foreground = ${colors.blanc}
 
-border-color = #00000000
+border-color = #000000
 
 padding-left = 0
 padding-right = 2
@@ -97,7 +97,7 @@ modules-right = filesystem pulseaudio memory cpu eth temperature  powermenu
 
 tray-position = right
 tray-padding = 2
-tray-background = #550063ff
+tray-background = #550063
 
 ;wm-restack = bspwm
 wm-restack = i3
